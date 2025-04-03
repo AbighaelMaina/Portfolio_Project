@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    background-color: #181315; /* Burgundy Background */
+    color: rgb(142, 219, 19);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3a9640; /* Soft pink to contrast burgundy */
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #167e8a;
+}
+
+/* About Me Section */
+.about-container {
+    background-color: white;
+    color: #333;
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h2 {
+    color: #241620; /* Burgundy Title */
+}
+
+/* Links */
+a {
+    color: #ffccd5; /* Light pink for links */
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #660017;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+.published {
+    font-style: italic;
+    color: lightgreen;
+}
+
+.content {
+    color: lightskyblue;
+}
+.home-link {
+    text-align: center; /* Centers the link */
+    margin-top: 20px; /* Adds spacing above */
+}
+
+.home-link a {
+    color: lightgreen; /* Change link color */
+    font-size: 18px; /* Adjust size */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it stand out */
+}
+
+.home-link a:hover {
+    color: yellow; /* Change color on hover */
+    text-decoration: underline; /* Optional */
+}
+
